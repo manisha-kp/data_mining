@@ -30,6 +30,8 @@
 
     Among these, **Linear SVM and BERT achieved the highest accuracy of 81%**.
 
+    The detailed code for deep learning can be found in DL folder, for Machine Learning approaches see ML folder.
+
 4.  **Evaluation Metrics**\
     Model performance is assessed using the **classification report**, which includes:
 
@@ -42,3 +44,11 @@
     -   **F1-score**
 
 5.  **Conclusion**: The comparison highlights that while traditional ML models like **Linear SVM** perform well for text classification, deep learning models such as **BERT** provide competitive or superior results. The choice between ML and DL depends on factors such as dataset size, computational resources, and interpretability requirements.
+
+**To run the application:**
+
+1.  Clone "submission" folder from git repo: <https://github.com/manisha-kp/data_mining>
+2.  Install streamlit:
+    -   *pip install streamlit*
+3.  Run the app:
+    -   *streamlit run streamlit.py*
